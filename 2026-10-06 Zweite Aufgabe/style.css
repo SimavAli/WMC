@@ -1,0 +1,49 @@
+/* Box-Sizing für alle Elemente zurücksetzen */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Grundlegendes Styling & zartes Rosa als Hintergrund */
+body {
+    margin: 0;
+    padding: 2rem;
+    background-color: #fff0f3; /* Sehr helles, leichtes Rosa */
+    color: #4a3b40;             /* Weiche, dunkle Textfarbe passend zum Ton */
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Überschrift mit rgba()-Hintergrund (Rosa mit leichter Transparenz) */
+h1 {
+    background-color: rgba(235, 123, 150, 0.75); /* Kräftigeres Rosa, leicht transparent */
+    color: #ffffff;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    border-radius: 0.5rem;
+    text-align: center;
+}
+
+/* Zweite Überschriften (h2) */
+h2 {
+    color: #b84a62;
+    margin-top: 0;
+}
+
+/* Die geforderte eigene Klasse mit rem-Abständen */
+.content-box {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+/* Fußzeile dezenter gestalten */
+footer {
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 0.9rem;
+    color: #7d686f;
+}
